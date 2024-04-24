@@ -1,0 +1,19 @@
+Model v4:
+model = Model(
+    num_heads=8
+    , d_model=D_MODEL
+    , vocab_size= 512 BPE (vocab v2)
+    , num_layers=3
+    , dropout=0.3
+    , context_length=256
+    , embedding_dim=128
+    , padding_idx=tokenizer.encode_vocab[tokenizer.PAD_TOKEN]
+    )
+
+Model v3: same as v4 but vocab_v1
+Model v1: same as v4 but vocab_v1
+
+
+
+## Vocab v1 --> Build from "Lets_try_building_GPT" notebook. Not exactly a BPE vocabulary
+## Vocab v2-v5 --> ALl are BPE, with different lengths. v2: 512, v3: 640, v4: 768, v5: 1024
