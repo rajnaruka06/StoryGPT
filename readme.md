@@ -1,2 +1,2 @@
 Work in Progress:
-    - Implement Decoding Strategies in From Scratch Implementation as well and check if it helps with the performance
+    - _scratch_generate_text_top_p --> Suggests model is overfitting.  Need to retrain.
